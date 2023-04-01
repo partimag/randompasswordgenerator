@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{align-items: center;
+    justify-items: center;
+    display: flex;
+    background-color: rgb(56, 133, 234);
+
+}
+.contanier{ 
+    padding-top: 200px;
+    margin: auto;
+     width: 25rem;
+    height: 20rem;
+    
+   }
+   .box{
+background-color: white;
+height: 20vw;
+width: 35wv;
+padding: 35px;
+ padding-top: 50px;
+   }
+   h3{
+    background-color: white;
+   margin-bottom: 40px;
+   text-align: center;
+   font-size: 26px;
+   color: #015a96;
+   font-family: sans-serif;
+ }
+ input {
+    padding: 20px;
+    user-select: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid #8d0cf7;
+    outline: none;
+    font-size: 22px;
+    }
+   
+   input::placeholder{
+     font-size: 21px;
+    } 
+    /* .copy1{
+    margin: 1px;
+        justify-items: center;
+        align-items: center;
+border: 1px solid;
+border-radius: 10px;
+background-color: #228fe8;
+color: white;
+width: 100px;
+height: 30px;
+
+  position: absolute;
+        opacity: 0;
+        font-size: 25px;
+    } */
+    .copy{
+        opacity: 1;
+    }
+    .button {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-top: 30px;
+        border: 2px solid #7100cf;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: #7100cf;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;  
+      }
+      
+       .button1{
+        position: relative;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-top: 30px;
+        border: 2px solid #7100cf;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: #7100cf;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;
+       }
+       .group{
+        display: flex;
+
+       }
+       #btn2{
+        margin-left: 70px;
+       }

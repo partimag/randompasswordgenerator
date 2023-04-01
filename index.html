@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" width="device-width,initial-scale=1.0" />
+    <title>Card</title>
+    <script
+      src="https://kit.fontawesome.com/91e79522a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="contanier">
+      <div class="box">
+        <h3>PASSWORD GENERATOR</h3>
+        <div class="button2">
+          <input
+            readonly
+            type="text"
+            placeholder=" create password"
+            class="input"
+            id="password"
+          />
+        </div>
+
+        <div class="groups">
+          <button onclick="copyPass()" class="button">copy</button>
+
+          <!-- <div onclick="iconPass()" id="copy" class="copy1">copied!</div> -->
+          <button onclick="passGen()" class="button1" id="btn2">
+            generator
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
